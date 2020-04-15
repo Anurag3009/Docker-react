@@ -12,6 +12,7 @@ class App extends Component {
         </div>
         <p className="App-intro">
           Need to prepare as quickly as possible to change the job
+         and start giving insterview
         </p>
       </div>
     );

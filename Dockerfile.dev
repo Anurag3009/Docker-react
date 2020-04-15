@@ -1,0 +1,6 @@
+FROM node:alpine
+WORKDIR /home/front_end
+COPY package.json /home/front_end
+RUN npm install
+COPY . . 
+CMD ["npm", "run", "start"]
